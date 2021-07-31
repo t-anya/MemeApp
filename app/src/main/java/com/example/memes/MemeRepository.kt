@@ -1,8 +1,7 @@
 package com.example.memes
 
-class MemeRepository {
+import com.example.memes.network.ApiHelper
 
-    fun callMemeApi() {
-
-    }
+class MemeRepository(val apiHelper: ApiHelper) {
+    suspend fun getMemes() = apiHelper.getMemes()
 }

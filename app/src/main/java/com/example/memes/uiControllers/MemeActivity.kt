@@ -1,7 +1,8 @@
-package com.example.memes
+package com.example.memes.uiControllers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.memes.R
 
 class MemeActivity : AppCompatActivity() {
 
