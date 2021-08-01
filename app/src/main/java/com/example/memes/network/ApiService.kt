@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface ApiService {
     @GET("gimme")
-    suspend fun getMeme(): ArrayList<MemeResponseData>?
+    suspend fun getMeme(): MemeResponseData?
 }
